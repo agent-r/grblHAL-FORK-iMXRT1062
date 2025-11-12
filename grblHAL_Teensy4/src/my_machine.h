@@ -166,4 +166,15 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 #endif
 #endif
 
-#define PENDANT_ENABLE      1
+////////////////////////////////
+//       OWN DEFINITONS       //
+////////////////////////////////
+
+#define PENDANT_ENABLE      1         //  
+#define N_AXIS 4                      //  grbl/config.h
+#define OVERRIDE_BUFSIZE 128          //  grbl.hal/override.h
+
+#if PENDANT_ENABLE
+            extern void pendant_init (void);
+            pendant_init();
+#endif
