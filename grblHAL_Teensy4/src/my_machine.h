@@ -51,7 +51,7 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 
 */
 #ifndef USB_SERIAL_CDC
-#define USB_SERIAL_CDC         2 // 1 for Arduino class library and 2 for PJRC C library. Comment out or set to 0 to use UART communication.
+  #define USB_SERIAL_CDC          2 // 1 for Arduino class library and 2 for PJRC C library. Comment out or set to 0 to use UART communication.
 #endif
 //#define USB_SERIAL_WAIT         1 // Wait for USB connection before starting grblHAL.
 //#define BLUETOOTH_ENABLE        2 // Set to 2 for HC-05 module. Requires and claims one auxiliary input pin.
@@ -76,7 +76,7 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 //#define MPG_ENABLE              1 // Enable MPG interface. Requires a serial stream and means to switch between normal and MPG mode.
                                     // 1: Mode switching is by handshake pin.
                                     // 2: Mode switching is by the CMD_MPG_MODE_TOGGLE (0x8B) command character.
-//#define KEYPAD_ENABLE           1 // 1: uses a I2C keypad for input.
+//#define KEYPAD_ENABLE           2 // 1: uses a I2C keypad for input.
                                     // 2: uses a serial stream for input. If MPG_ENABLE is set > 0 the serial stream is shared with the MPG.
 //#define DISPLAY_ENABLE          9 // Set to 9 for I2C display protocol, 17 for I2C LED protocol.
 //#define MACROS_ENABLE           1 // Macros plugin. For macros that can be triggered by keypad plugin or auxiliary inputs.
@@ -170,11 +170,10 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 //       OWN DEFINITONS       //
 ////////////////////////////////
 
-#define PENDANT_ENABLE      1         //  
+#define PENDANT_ENABLE      1         //  grbl/plugins_init.h
 #define N_AXIS 4                      //  grbl/config.h
 #define OVERRIDE_BUFSIZE 128          //  grbl.hal/override.h
 
-#if PENDANT_ENABLE
-            extern void pendant_init (void);
-            pendant_init();
-#endif
+#define SERIAL1_PORT	1
+#define UART1_RX    	(25u) // Not used, for info only
+#define UART1_TX    	(24u) // Not used, for info only
