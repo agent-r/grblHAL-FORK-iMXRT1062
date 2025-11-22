@@ -43,3 +43,9 @@
 [submodule "grblHAL_Teensy4/src/grblHAL-Pendant-Plugin"]
 	path = grblHAL_Teensy4/src/grblHAL-Pendant-Plugin
 	url = https://github.com/agent-r/grblHAL-Pendant-Plugin.git
+[submodule "grblHAL_Teensy4/src/plugins"]
+	path = grblHAL_Teensy4/src/plugins
+	url = https://github.com/grblHAL/Plugins_misc.git
+[submodule "grblHAL_Teensy4/src/webui"]
+	path = grblHAL_Teensy4/src/webui
+	url = https://github.com/grblHAL/Plugin_WebUI.git
