@@ -170,9 +170,11 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 //       OWN DEFINITONS       //
 ////////////////////////////////
 
-#define PENDANT_ENABLE      1         //  grbl/plugins_init.h
+
 #define N_AXIS 4                      //  grbl/config.h
 #define OVERRIDE_BUFSIZE 128          //  grbl.hal/override.h
+
+#define PENDANT_ENABLE      1         //  grbl/plugins_init.h
 
 #define SERIAL1_PORT	1
 #define UART1_RX    	(25u) // Not used, for info only
