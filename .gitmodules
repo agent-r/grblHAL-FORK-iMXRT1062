@@ -30,22 +30,16 @@
 	url = https://github.com/grblHAL/Plugin_plasma
 [submodule "grblHAL_Teensy4/src/openpnp"]
 	path = grblHAL_Teensy4/src/openpnp
-	url = https://github.com/grblHAL/Plugin_OpenPNP
+	url = https://github.com/grblHAL/Plugin_OpenPNP.git
 [submodule "grblHAL_Teensy4/src/bluetooth"]
 	path = grblHAL_Teensy4/src/bluetooth
 	url = https://github.com/grblHAL/Plugins_Bluetooth
 [submodule "grblHAL_Teensy4/src/fans"]
 	path = grblHAL_Teensy4/src/fans
 	url = https://github.com/grblHAL/Plugin_fans
-[submodule "grblHAL_Teensy4/src/webui"]
-	path = grblHAL_Teensy4/src/webui
-	url = https://github.com/grblHAL/Plugin_WebUI
 [submodule "grblHAL_Teensy4/src/embroidery"]
 	path = grblHAL_Teensy4/src/embroidery
 	url = https://github.com/grblHAL/Plugin_embroidery
-[submodule "grblHAL_Teensy4/src/plugins"]
-	path = grblHAL_Teensy4/src/plugins
-	url = https://github.com/grblHAL/Plugins_misc/
 [submodule "grblHAL_Teensy4/src/grblHAL-Pendant-Plugin"]
 	path = grblHAL_Teensy4/src/grblHAL-Pendant-Plugin
 	url = https://github.com/agent-r/grblHAL-Pendant-Plugin.git
