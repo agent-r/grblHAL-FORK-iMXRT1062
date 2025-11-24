@@ -174,8 +174,8 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 #define N_AXIS 4                      //  grbl/config.h
 #define OVERRIDE_BUFSIZE 128          //  grbl.hal/override.h
 
-#define PENDANT_ENABLE      1         //  grbl/plugins_init.h
+#define PENDANT_ENABLE       1         //  grbl/plugins_init.h
 
-#define SERIAL1_PORT	1
-#define UART1_RX    	(25u) // Not used, for info only
-#define UART1_TX    	(24u) // Not used, for info only
+#define SERIAL_PORT	6    // PORT 6 routes to PIN 0 and 1
+// #define UART1_RX    	(0u) // not used, info only. for BLE-ESP32
+// #define UART1_TX    	(1u) // not used, info only. for BLE-ESP32
