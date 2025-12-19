@@ -42,6 +42,7 @@
        pendant_init();
     #endif
 ```
+  
 
 ## Weiteres Vorgehen:
 

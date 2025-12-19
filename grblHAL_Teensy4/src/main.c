@@ -21,7 +21,7 @@
 
 */
 
-// Double tap reset to enter bootloader mode - select bootloader port for programming
+// Double tap reset to enter bootloader mode - select bootloader port for programming.
 
 #include "grbl/grbllib.h"
 
