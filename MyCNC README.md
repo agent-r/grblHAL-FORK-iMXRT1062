@@ -24,10 +24,10 @@
 //       OWN DEFINITONS       //
 ////////////////////////////////
 
-#define N_AXIS 4                      //  grbl/config.h
-#define OVERRIDE_BUFSIZE 128          //  grbl.hal/override.h
+#define N_AXIS 4
+#define OVERRIDE_BUFSIZE 128
 
-#define PENDANT_ENABLE      1         //  grbl/plugins_init.h
+#define PENDANT_ENABLE      1
 
 #define SERIAL_PORT	6    // PORT 6 routes to PIN 0 and 1
 // #define UART1_RX    	(0u) // not used, info only. for BLE-ESP32
